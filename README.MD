@@ -4,7 +4,9 @@ This will read the frequency(Ethanol %) and low pulse time(C Temp) of a standard
 
 CAN bus transmit message format can be set to whatever. Default is set to mirror the Zeitronix format. It will transmit 50% Ethanol, max temperature, and a faulted sensor state for any error condition. The error conditions being a disconnected or failed sensor, too low of a frequency(below 0%), and too high of a frequency(above 100%).
 
-![Wiring Diagram.png]()
+Compile and upload using Arduino IDE and the INO file.
+
+![Wiring Diagram.png](https://github.com/Sixline/ESP32-CAN-ECA/blob/main/Wiring%20Diagram.png)
 
 I was getting random noise spikes where the ethanol percentage would randomly spike 20-30% above what it should be. Adding a 10nF capacitor across the GPIO reduced it to maybe once or twice in a 30 minute period. The basic spike filter code eliminated those being an issue. I also added a diode for basic protection of the GPIO.
 
@@ -18,8 +20,8 @@ Tested with:
 * 1N5817 Schottky Diode
 * 3D Printed Box - https://www.printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec
 
-![Completed Module1.png]()
-![Completed Module2.png]()
+![Completed Module1.png](https://github.com/Sixline/ESP32-CAN-ECA/blob/main/Completed%20Module1.png)
+![Completed Module2.png](https://github.com/Sixline/ESP32-CAN-ECA/blob/main/Completed%20Module2.png)
 
 ```
 Output Ethanol Content: % (Frequency Hz - 50)
