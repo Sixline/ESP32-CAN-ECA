@@ -20,11 +20,11 @@ Tested with:
 * 1N5817 Schottky Diode
 * 3D Printed Box - https://www.printables.com/model/72839-customizable-parametric-stable-and-waterproof-elec
 
-![Completed Module1.png](https://github.com/Sixline/ESP32-CAN-ECA/blob/main/Completed%20Module1.png)
-![Completed Module2.png](https://github.com/Sixline/ESP32-CAN-ECA/blob/main/Completed%20Module2.png)
-
 ```
 Output Ethanol Content: % (Frequency Hz - 50)
 Fuel temperature °C: [41.25 x low pulsewidth (ms)] - 81.25
 Self diagnostics: Embedded (fuel contamination more likely as readings increase above 150Hz)
 ```
+
+![Completed Module1.png](https://github.com/Sixline/ESP32-CAN-ECA/blob/main/Completed%20Module1.png)
+![Completed Module2.png](https://github.com/Sixline/ESP32-CAN-ECA/blob/main/Completed%20Module2.png)
